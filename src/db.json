@@ -1,0 +1,59 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Atharv",
+      "email": "atharv@gmail.com",
+      "marks": {
+        "Math": 85,
+        "Science": 92,
+        "English": 78
+      },
+      "attendance": {
+        "present": 85,
+        "absent": 15
+      },
+      "activities": [
+        { "date": "2025-09-01", "activity": "Science Project Submitted" },
+        { "date": "2025-09-05", "activity": "Math Test Completed" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Swati",
+      "email": "swati@gmail.com",
+      "marks": {
+        "Math": 78,
+        "Science": 80,
+        "English": 85
+      },
+      "attendance": {
+        "present": 90,
+        "absent": 10
+      },
+      "activities": [
+        { "date": "2025-09-02", "activity": "English Essay Submitted" }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "courseName": "React Basics",
+      "instructorName": "Mr. Sharma",
+      "studentsEnrolled": [1, 2]
+    },
+    {
+      "id": 2,
+      "courseName": "Advanced JavaScript",
+      "instructorName": "Ms. Verma",
+      "studentsEnrolled": [2]
+    },
+    {
+      "id": 3,
+      "courseName": "CSS & Bootstrap",
+      "instructorName": "Mr. Joshi",
+      "studentsEnrolled": [1]
+    }
+  ]
+}
